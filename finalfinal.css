@@ -1,0 +1,319 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(242, 246, 245, 1);
+    
+
+    
+  }
+  
+
+  
+  .hero img{
+    width:1344px ;
+    height: 672px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .intro img{
+    
+    
+    
+      display : block;
+      
+      width: 1300px;
+    
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d9dbd7;
+    padding: 10px 40px;
+    border-radius: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    width: 80%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    
+  }
+  h1{
+    font-family: 'BIZ UDMincho'
+  }
+  .intro p{
+    font-family:'BIZ UDMincho' ;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-menu li {
+    margin: 0 10px;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    transition: color 0.3s;
+    
+   
+    
+  }
+  .nav-menu a:hover{
+    color: red;
+    
+  }
+  
+  .logo {
+    font-family: serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    transition: transform 0.3s, color 0.3s;
+  }
+  .logo:hover {
+    transform:  scale(1.1);
+    color:black;
+}
+  .hero {
+    
+    padding: 20px;
+  }
+  
+  .hero h1 {
+    font-size: 2em;
+    margin: 0.5em 0;
+  }
+  
+  .avatar {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+.intro {
+    padding: 30px;
+    font-family: 'BIZ UDPMincho';
+    font-size: 30px;
+    line-height: 2px;
+    margin-left: 100px;
+  }
+h1{
+    text-align: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
+    justify-items: center;
+  }
+  
+.grid .project {
+    
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    
+  }
+  
+.project img {
+    width: 102%;
+    height: auto;
+    margin-bottom: 0px;
+    gap: 10px;
+    transition: 1s;
+}
+.grid .project h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px 0 5px; 
+    text-align: left;
+  }
+  
+.grid .project p {
+    font-size: 1rem;
+    color: black;
+    text-align: left;
+    padding-top: 0;
+    margin-top: 0;
+  }
+.grid .project img:hover{
+    transform: scale(1.3);
+    z-index: 2;
+
+
+}
+.grid p{
+  color:grey;
+  
+}
+.testimonials {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: auto;
+}
+
+.testimonial {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+    text-align: left;
+    border: 2px solid black;
+    transition: 0.3s;
+    
+
+}
+.testimonial:hover{
+    transform: scale(1.3);
+    z-index: 2;
+
+}
+
+.testimonial img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+    margin-bottom: 10px;
+    float: left;
+    
+    padding-right: 10px;
+    
+    
+    
+    
+}
+
+
+.testimonial h4 {
+    font-size: 16px;
+    margin: 0 0 5px;
+    
+}
+
+.testimonial p {
+    font-size: 14px;
+    color: #666;
+    
+    
+}
+
+.clients{
+    text-align: center;
+}
+.horizontal-line{
+    border-top: 5px solid black;
+
+}
+.review {
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    
+    justify-content: right;
+    align-items: right;
+    margin-left: 900px;
+    
+}
+
+    
+
+
+
+
+
+.review h2{
+    text-decoration: overline;
+    text-decoration-thickness:2px ;
+    width: 100px;
+}
+.last-part{
+    display: flex;
+    gap: 100px;
+    text-align: left;
+    padding: 10px;
+    margin-top: 20px;
+    align-items: end;
+    
+    justify-content: space-between;
+    
+    
+}
+
+footer p {
+    margin: 0;
+
+}
+
+button {
+    
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+   margin-left: 1000px;
+   border-radius: 5px;
+}
+h3{
+    margin-left: 10px;
+   font-family: 'BIZ UDPMincho';
+    color : black;
+}
+button:hover {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+@media (max-width:700px){
+  .navbar {
+    flex-wrap: wrap;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .intro {
+    text-align: center;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+  .review{
+    grid-template-columns:1fr;
+    width: 100%;
+  }
+  .hero img{
+    width: 100%;
+  }
+  .intro img{
+  width: 100%;
+  }
+  
+}
+
+
+    
+  
+    
+
+    
+  
+
+
